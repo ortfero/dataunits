@@ -40,3 +40,9 @@ int main() {
 | terabytes |    1_TB | 1000^4 | tebibytes |   1_TiB | 1024^4 |
 | petabytes |    1_PB | 1000^5 | pebibytes |   1_PiB | 1024^5 |
 | exabytes  |    1_EB | 1000^6 | exbibytes |   1_EiB | 1024^6 |
+
+## Differences from https://github.com/nholthaus/units
+
+- Data units only
+- An order of magnitude less (~430 sloc vs ~4300 sloc)
+- Parsing units from ```std::string``` and ```std::string_view```
