@@ -120,7 +120,7 @@ TEST_CASE("to_string") {
 }
 
 
-TEST_CASE("capacity_cast") {
+TEST_CASE("data_cast") {
   SUBCASE("B -> KiB") {
     auto const x = 1024_B;
     auto const y = data_cast<kibibytes>(x);
