@@ -131,6 +131,11 @@ TEST_CASE("capacity_cast") {
     auto const y = data_cast<gibibytes>(x);
     REQUIRE(y == 2_GiB);
   }
+  SUBCASE("GB -> MiB") {
+    auto const x = 1_GB;
+    auto const y = data_cast<mebibytes>(x);
+    REQUIRE(y == 953_MiB);
+  }
 }
 
 
