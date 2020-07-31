@@ -36,7 +36,7 @@ int main() {
 | bytes     |    1_B  |      1 |           |         |        |
 | kilobytes |    1_kB |   1000 | kibibytes |   1_KiB |   1024 |
 | megabytes |    1_MB | 1000^2 | mebibytes |   1_MiB | 1024^2 |
-| gibibytes |    1_GB | 1000^3 | gibibytes |   1_GiB | 1024^3 |
+| gigabytes |    1_GB | 1000^3 | gibibytes |   1_GiB | 1024^3 |
 | terabytes |    1_TB | 1000^4 | tebibytes |   1_TiB | 1024^4 |
 | petabytes |    1_PB | 1000^5 | pebibytes |   1_PiB | 1024^5 |
 | exabytes  |    1_EB | 1000^6 | exbibytes |   1_EiB | 1024^6 |
